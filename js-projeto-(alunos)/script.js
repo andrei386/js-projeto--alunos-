@@ -91,7 +91,7 @@ function animateText() {
     // Alterna a cor do texto em cada ciclo, independentemente de digitar/apagar
     const isLight = document.documentElement.classList.contains('light');
     if (isLight) {
-        currentColor = currentColor === 'black' ? '#27067462' : 'black';
+        currentColor = currentColor === 'black' ? '#6104dad1' : 'black';
     } else {
         currentColor = currentColor === '#fff' ? '#790aa5e2' : '#fff';
     }
